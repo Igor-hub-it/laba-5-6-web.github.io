@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+}
+  
+
+body {
+    font-size: 100%;
+    line-height: normal;
+}
+  
+button {
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+  
+a, a:visited {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+ul li {
+    list-style: none;
+}
+  
+h1 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+  
+.header {
+    padding: 0 0 100px;
+    font-weight: 700;
+}
+  
+.nav {
+    height: 88px;
+    border-bottom: 1px #828282 solid;
+    overflow: hidden;
+}
+  
+.nav__inner {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.nav__item {
+    color: black;
+}
+  
+/* .nav__item.active {
+    color: #070707;
+} */
+  
+.nav__link {
+    text-transform: capitalize;
+}
+  
+.me {
+    display: flex;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.me_short{
+    margin-top: 20px;
+}
+
+.me_text{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.me_name {
+    font-size: 47px;
+}
+
+.me_logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.about{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    text-align: center;
+    color: black;
+}
+
+.title-about_me{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.text_about_me{
+    font-size: 18px;
+}
+
+.skills{
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+
+.title_sk{
+    text-align: center;
+    font-size: 25px;
+}
+
+.my_programs{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+}
+
+.programm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.me_logo2{
+    width: 200px;
+    margin: auto;
+}
+
+.me_logo1{
+    width: 300px;
+    margin: auto;
+}
+
+.portfolio{
+    height: 100%;
+    background-color: antiquewhite;
+    padding-top: 20px;
+}
+
+.my_port{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.title_portfolio{
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.port_text{
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.me_logo3{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 15px!important;
+}
+
+footer{
+    width: 100%;
+}
+
+.title_cont{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts__btn {
+    margin: 0 auto;
+    padding: 13px 28px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2em;
+    background-color: #070707;
+  }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.subtext{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.social{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social__logo{
+    width: 40px;
+}
+
+@media (max-width: 1000px){
+    .my_programs{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .nav__inner{
+        flex-direction: column;
+    }
+    .me{
+        flex-direction: column;
+    }
+    .me_logo{
+        width: 55%;
+    }
+}
